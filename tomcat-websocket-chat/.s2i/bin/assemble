@@ -1,5 +1,6 @@
 #!/bin/sh
 echo "Custom S2I*************************"
+whoami
 . /usr/local/s2i/common.sh
 
 # Source code provided to S2I is at ${HOME}/source
